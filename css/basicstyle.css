@@ -1,0 +1,75 @@
+
+.section-1 .content {
+    text-align: center;
+    letter-spacing: 0.3rem;
+}
+
+.section-1 .section1Font1 {
+    font-size: 4.65rem;
+    color: white;
+    font-weight: 600;
+}
+
+.section-1 .section1Font2 {
+    font-size: 2.5rem;
+    padding-top: 3.75rem;
+    font-weight: 200;
+    color: #ededed;
+}
+
+.section-1 .nextPageBtn {
+    position: absolute;
+    bottom: 1rem;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+
+.section-3 .content {
+    text-align: center;
+    letter-spacing: 0.3rem;
+}
+
+.section-3 .section3Font1 {
+    font-size: 4.75rem;
+    font-weight: 600;
+    color: white;
+}
+
+.section-3 .section3Font2 {
+    font-size: 2.5rem;
+    padding-top: 3.75rem;
+    font-weight: 200;
+    color: #ededed;
+}
+
+.section-4 .content {
+    text-align: center;
+    letter-spacing: 0.3rem;
+}
+
+.section-4 .section4Font1 {
+    font-size: 4.75rem;
+    font-weight: 600;
+    color: white;
+}
+
+.section-4 .section4Font2 {
+    font-size: 2.5rem;
+    padding-top: 3.75rem;
+    font-weight: 200;
+    color: #ededed;
+}
+
+.sectionBottom {
+    height: 2rem;
+    width: 100%;
+    font-size: 1rem;
+    z-index: 2;
+    position: absolute;
+    bottom: 0;
+    vertical-align: middle;
+    line-height: 2rem;
+    color: white;
+    text-align: center;
+}

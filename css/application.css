@@ -1,0 +1,54 @@
+
+.appSection1Top{
+    text-align: center;
+    padding-top: 8rem;
+    font-size: 2.25rem;
+}
+.appSection1Top .bold{
+    font-weight: 600;
+    padding-right: 1.5rem;
+}
+.appSection1Top .crowdfundingIcon{
+    padding-right: 1.5rem;
+    vertical-align: middle;
+}
+
+.crowdfundingFont{
+    font-size: 1.5rem;
+    color: #666666;
+    letter-spacing: 0.1rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.crowdfundingImg{
+    text-align: left;
+}
+.crowdfundingAR{
+    width: 100%;
+    text-align: center;
+    padding-top: 10rem;
+    padding-bottom: 3.5rem;
+}
+.mygoSection1{
+    text-align: center;
+}
+
+.sectionBottom {
+    height: 2rem;
+    width: 100%;
+    font-size: 1rem;
+    z-index: 2;
+    vertical-align: middle;
+    line-height: 2rem;
+    color: white;
+    background: black;
+    text-align: center;
+}
+
+.section6 {
+    background-image: url("../images/aboutus.png");
+    background-size: cover;
+    background-position: top;
+}
+

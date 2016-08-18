@@ -1,0 +1,114 @@
+html,body{ width:100%; height:100%; overflow:hidden;background: black;}
+.section-wrap{ width:100%;height:100%;overflow:visible;transition:transform 1s cubic-bezier(0.86,0,0.03,1);-webkit-transition:-webkit-transform 1s cubic-bezier(0.86,0,0.03,1);}
+@font-face
+{
+    font-family: myFirstFont;
+    src: url('font.TTF')/*,
+    url('Sansation_Light.eot'); /* IE9+ */
+}
+.section-wrap .section{
+    position:relative;
+    width:100%;
+    height:100%;
+    background-position:center center;
+    background-repeat:no-repeat;
+    font-family: "myFirstFont";
+    letter-spacing: 0.2rem;
+    text-align: center;
+}
+
+.section-wrap .section .title{width:100%;position:absolute;top:10%;color:#fff;font-size:2.4em;text-align:center;}
+
+.section-wrap .section .title p{ padding:0 4%;opacity:0}
+
+.section-wrap .section .title.active .tit{ opacity:1;transform:translateY(-25px);-webkit-transform:translateY(-25px);transition:all 2s cubic-bezier(0.86,0,0.8,1);-webkit-transition:all 2s cubic-bezier(0.86,0,0.8,1);}
+
+.section-wrap .section-1{
+    background-image: url("../images/bg1.png");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.section-wrap .section-2{
+    background-color: yellow;
+    background-size: cover;
+    background-position: center;
+}
+
+.section-wrap .section-3{
+    background-image: url("../images/bg3.png");
+    background-size: cover;
+    background-position: top;
+}
+
+.section-wrap .section-4{
+    background-image: url("../images/bg4.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.section-wrap .section-5{
+    background-image: url("../images/web05bg.png");
+    background-size: cover;
+    background-position: center right;
+}
+
+
+.section-wrap .section-6{
+    background-color: #f7f7f7;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.section-wrap .section-7{
+    background-image: url("../images/web07bg.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.section-wrap .section-8{
+    /*background-image: url("../images/web09bg.png");
+    background-position: center;*/
+    background: black;
+}
+
+.section-wrap .section-9{
+    background-image: url("../images/web08bg.png");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.put-section-0{ transform:translateY(0);-webkit-transform:translateY(0);}
+.put-section-1{ transform:translateY(-100%);-webkit-transform:translateY(-100%);}
+.put-section-2{ transform:translateY(-200%);-webkit-transform:translateY(-200%);}
+.put-section-3{ transform:translateY(-300%);-webkit-transform:translateY(-300%);}
+.put-section-4{ transform:translateY(-400%);-webkit-transform:translateY(-400%);}
+.put-section-5{ transform:translateY(-500%);-webkit-transform:translateY(-500%);}
+.put-section-6{ transform:translateY(-600%);-webkit-transform:translateY(-600%);}
+.put-section-7{ transform:translateY(-700%);-webkit-transform:translateY(-700%);}
+.put-section-8{ transform:translateY(-800%);-webkit-transform:translateY(-800%);}
+
+
+
+.section-btn{ width:11px;position:fixed;left:2rem !important;z-index: 999;}
+.section-btn li{ width:11px;height:11px;cursor:pointer;text-indent:-9999px;border-radius:50%;-webkit-border-radius:50%;margin-bottom:2rem; background:none;background:#999999;text-align:center; }
+.section-btn li.on{ background:white;border: none;}
+@media (max-width: 640px) {
+    .section-btn {
+        display: none;
+    }
+}
+.wrapper nav {
+    font-family: "Microsoft yahei", "微软雅黑";
+}
+header.global.desktop .logo-white {
+    height: 35px;
+}
+header.global.desktop.active {
+    height: 50px;
+}
+

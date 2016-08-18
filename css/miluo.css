@@ -1,0 +1,252 @@
+.section {
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-align: center;
+    position: relative;
+}
+
+.section hr {
+    height: 2px;
+    border: none;
+    background: #000000;
+}
+
+.section .divisionSection {
+    padding-top: 7.625rem;
+    position: relative;
+}
+
+.divisionFont {
+    position: absolute;
+    display: inline-block;
+    width: 15rem;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    vertical-align: middle;
+    top: 5.375rem;
+    z-index: 9;
+    left: 50%;
+    margin-left: -7.5rem;
+    color: black;
+    border: 2px solid black;
+    background: white;
+    font-size: 2.25rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.section1 {
+    background-image: url("../images/miluobg1.png");
+    background-size: cover;
+    background-position: top;
+}
+
+.section table {
+    width: 100%;
+    text-align: center;
+}
+
+.sectionFont {
+    font-size: 1.5rem;
+    color: #666666;
+    display: none;
+    padding-top: 6rem;
+    padding-bottom: 3.75rem;
+}
+
+.realityImg {
+    display: none;
+    margin: auto;
+    width: 67.5rem;
+    height: 40rem;
+}
+
+.leftRightIcon {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #000000;
+    border-radius: 70%;
+    cursor: pointer;
+    position: absolute;
+    bottom: 50%;
+}
+
+.active {
+    display: inline-block;
+}
+
+.sectionBottom {
+    height: 2rem;
+    width: 100%;
+    font-size: 1rem;
+    z-index: 2;
+    position: absolute;
+    bottom: 0;
+    vertical-align: middle;
+    line-height: 2rem;
+    color: black;
+    text-align: center;
+}
+
+.section6 {
+    background-image: url("../images/aboutus.png");
+    background-size: cover;
+    background-position: top;
+    text-align: center;
+}
+
+.section6 .aboutUsFont {
+    color: #ebebeb;
+    font-size: 1.5rem;
+    width: 68rem;
+    left: 50%;
+    margin-left: -34rem;
+    position: absolute;
+    bottom: 8rem;
+    text-align: left;
+    font-weight: 200;
+    animation: fontanimation 3s;
+    -webkit-animation: fontanimation 3s;
+    -moz-animation: fontanimation 3s;
+    -o-animation: fontanimation 3s;
+}
+
+@keyframes fontanimation {
+    from {
+        filter: alpha(opacity=0);
+        -moz-opacity: 0;
+        -khtml-opacity: 0;
+        opacity: 0;
+    }
+    to {
+        filter: alpha(opacity=100);
+        -moz-opacity: 1;
+        -khtml-opacity: 1;
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fontanimation {
+    from {
+        filter: alpha(opacity=0);
+        -moz-opacity: 0;
+        -khtml-opacity: 0;
+        opacity: 0;
+    }
+    to {
+        filter: alpha(opacity=100);
+        -moz-opacity: 1;
+        -khtml-opacity: 1;
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fontanimation {
+    from {
+        filter: alpha(opacity=0);
+        -moz-opacity: 0;
+        -khtml-opacity: 0;
+        opacity: 0;
+    }
+    to {
+        filter: alpha(opacity=100);
+        -moz-opacity: 1;
+        -khtml-opacity: 1;
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fontanimation {
+    from {
+        filter: alpha(opacity=0);
+        -moz-opacity: 0;
+        -khtml-opacity: 0;
+        opacity: 0;
+    }
+    to {
+        filter: alpha(opacity=100);
+        -moz-opacity: 1;
+        -khtml-opacity: 1;
+        opacity: 1;
+    }
+}
+
+.cooperateTable {
+    width: 90%;
+    margin: auto;
+    text-align: left;
+    margin-top: 10rem;
+}
+
+.cooperateTable img {
+    width: 12.5rem;
+    height: 12.5rem;
+
+}
+
+.sectionBottomCoop {
+    height: 2rem;
+    width: 100%;
+    font-size: 1rem;
+    z-index: 2;
+    vertical-align: middle;
+    line-height: 2rem;
+    color: white;
+    background: black;
+    text-align: center;
+}
+.application{
+    width: 67.5rem;
+    margin: auto;
+}
+
+.offlineSection {
+    position: relative;
+    display: block;
+    width: 37rem;
+    height: 37rem;
+    margin: auto;
+}
+.offlineSection .centerImg{
+    position: absolute;
+    width: 17.05rem;
+    height: 16.4rem;
+    z-index: 2;
+}
+.offlineSection .offlineImg {
+    width: 7.7rem;
+    height: 7.7rem;
+    position: absolute;
+}
+/*.offlineSection.current .offlineImg{*/
+    /*transition: animateimg 1s;*/
+/*}*/
+
+/*@keyframes animateimg{*/
+    /*0%{*/
+        /*transform:translate(0rem,0rem);*/
+    /*}*/
+    /*100% {*/
+        /*transform:translate(20.75rem,1.65rem);*/
+    /*}*/
+/*}*/
+.offlineSection .offlineFont{
+    font-size:2.625rem;
+    position: absolute;
+    z-index: 3;
+    text-align: center;
+    width: 100%;
+    top:16.95rem;
+}
+header.global.desktop.active {
+    height: 50px;
+    background: #ffffff;!important;
+}
+html body header.global.desktop>.wrapper nav ul li a {
+    color: #e0e0e0;
+    font-family: "Microsoft yahei";
+}
+html body header.global.desktop>.wrapper nav ul li a:hover{
+    color: #000000;
+}
